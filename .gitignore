@@ -1,0 +1,17 @@
+# Obsidian workspace state — user-specific, do not share
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Plugin user data (SRS progress, plugin settings) — user-specific
+.obsidian/plugins/*/data.json
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Zip exports
+*.zip
