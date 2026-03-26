@@ -110,4 +110,17 @@ SORT file.name ASC
 
 ---
 
+## Recent Study Logs
+
+> *Open the Calendar (right panel) and click any date to create or open that day's study log.*
+
+```dataview
+TABLE date AS "Date"
+FROM #study-log
+SORT date DESC
+LIMIT 7
+```
+
+---
+
 **Related:** [[Space Operations Reference — Map of Content]] · [[Interactive Features Demo]] · [[Acronym Reference]]

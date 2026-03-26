@@ -1,11 +1,16 @@
 ---
-title: {{title}}
+title: <% tp.file.title %>
 classification: UNCLASSIFIED // FOUO
 tags:
-  - 
+  -
+difficulty: Foundational
+section:
+prerequisites:
+  -
+created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Overview
 
@@ -13,8 +18,8 @@ tags:
 
 ## Key Points
 
-
+-
 
 ---
 
-**Related:** 
+**Related:**

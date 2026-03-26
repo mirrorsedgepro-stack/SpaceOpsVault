@@ -1,1 +1,17 @@
-["dataview","obsidian-spaced-repetition","obsidian-charts"]
+[
+  "dataview",
+  "obsidian-spaced-repetition",
+  "obsidian-charts",
+  "better-word-count",
+  "pandoc",
+  "auto-link-title",
+  "calendar",
+  "daily-notes-viewer",
+  "file-tree-alternative",
+  "obsidian-style-settings",
+  "nldates-obsidian",
+  "typography",
+  "folder-note-plugin",
+  "tag-wrangler",
+  "templater-obsidian"
+]

@@ -21,9 +21,12 @@ aliases:
 ---
 
 > [!tip] Tools & Features
-> [[Study Dashboard]] — dynamic reading list sorted by difficulty (requires Dataview plugin)
+> [[Study Dashboard]] — dynamic reading list sorted by difficulty and topic (requires Dataview plugin)
 > [[Flashcards]] — 60+ spaced repetition cards across all topics (requires Obsidian Spaced Repetition plugin)
 > [[Interactive Features Demo]] — Mermaid diagrams, self-tests, Charts, collapsible callouts, and more
+> 📅 **Study Log** — click any date in the Calendar (right panel) to open a structured study session log; recent logs appear in [[Study Dashboard]]
+>
+> **First time here?** → [[Plugin Installation Guide]] — one-click install links for all required plugins
 
 > [!info] New to Space Operations? Start Here
 > Follow this sequence before diving into specialist topics. Each step takes 5–15 minutes.
