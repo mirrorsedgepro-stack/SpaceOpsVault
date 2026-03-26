@@ -1,0 +1,10 @@
+{
+  "templates_folder": "Templates",
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": true,
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "auto_recognize_regex": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": []
+}

@@ -5,6 +5,10 @@
 # Plugin user data (SRS progress, plugin settings) — user-specific
 .obsidian/plugins/*/data.json
 
+# Shared plugin configs — track these so clones get the correct setup
+!.obsidian/plugins/templater-obsidian/data.json
+!.obsidian/plugins/calendar/data.json
+
 # Claude Code local settings
 .claude/settings.local.json
 
