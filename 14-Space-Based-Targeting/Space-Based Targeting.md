@@ -20,12 +20,12 @@ tags:
 
 ```mermaid
 flowchart LR
-    F["🔍 FIND\nSIGINT sats · GMTI\nISR constellation"]
-    FX["📍 FIX\nNGA imagery\nELINT TDOA · GPS"]
-    T["👁️ TRACK\nSATCOM relay\nData links"]
-    TG["🎯 TARGET\nGPS coordinates\nto weapon"]
-    E["💥 ENGAGE\nGPS guidance\nSATCOM updates"]
-    A["📊 ASSESS\nSatellite BDA\nPre-impact imaging"]
+    F["🔍 FIND<br/>SIGINT sats · GMTI<br/>ISR constellation"]
+    FX["📍 FIX<br/>NGA imagery<br/>ELINT TDOA · GPS"]
+    T["👁️ TRACK<br/>SATCOM relay<br/>Data links"]
+    TG["🎯 TARGET<br/>GPS coordinates<br/>to weapon"]
+    E["💥 ENGAGE<br/>GPS guidance<br/>SATCOM updates"]
+    A["📊 ASSESS<br/>Satellite BDA<br/>Pre-impact imaging"]
 
     F --> FX --> T --> TG --> E --> A
 

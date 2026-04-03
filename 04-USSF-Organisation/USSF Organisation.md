@@ -40,12 +40,12 @@ aliases:
 
 ```mermaid
 graph TD
-    CSO["🌟 Chief of Space Operations\nGen Saltzman"]
+    CSO["🌟 Chief of Space Operations<br/>Gen Saltzman"]
 
-    CSO --> CFC["⚔️ Combat Forces Command\nCFC — Peterson SFB"]
-    CSO --> SSC["🛰️ Space Systems Command\nSSC — LA AFB"]
-    CSO --> STAR["🎓 STARCOM\nPeterson SFB"]
-    CSO --> S4S["🔗 US Space Forces-Space\nS4S — Vandenberg SFB"]
+    CSO --> CFC["⚔️ Combat Forces Command<br/>CFC — Peterson SFB"]
+    CSO --> SSC["🛰️ Space Systems Command<br/>SSC — LA AFB"]
+    CSO --> STAR["🎓 STARCOM<br/>Peterson SFB"]
+    CSO --> S4S["🔗 US Space Forces-Space<br/>S4S — Vandenberg SFB"]
 
     S4S -.->|"USSF component to"| USC["🌐 USSPACECOM"]
 
@@ -55,8 +55,8 @@ graph TD
     CFC --> D8["Delta 8 · SATCOM"]
     CFC --> D9["Delta 9 · Orbital Warfare"]
 
-    USC --> CSpOC["CSpOC\nCombined Space Ops Centre"]
-    CSpOC --> AUS["🇦🇺 AUSSpOC\n(ADF embed)"]
+    USC --> CSpOC["CSpOC<br/>Combined Space Ops Centre"]
+    CSpOC --> AUS["🇦🇺 AUSSpOC<br/>(ADF embed)"]
 
     style CSO fill:#1a3a5c,color:#fff
     style S4S fill:#3a1a5c,color:#fff

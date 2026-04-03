@@ -21,19 +21,19 @@ tags:
 ```mermaid
 graph TD
     subgraph LOS["Line of Sight"]
-        L16["Link 16\nL-band · TDMA · ~300nm\nAll ADF combat platforms"]
-        MADL["MADL\nF-35 only · LPI/LPD\nDirectional beam"]
-        CEC["CEC\nFire-control quality\nNaval only"]
+        L16["Link 16<br/>L-band · TDMA · ~300nm<br/>All ADF combat platforms"]
+        MADL["MADL<br/>F-35 only · LPI/LPD<br/>Directional beam"]
+        CEC["CEC<br/>Fire-control quality<br/>Naval only"]
     end
     subgraph BLOS["Beyond Line of Sight"]
-        L22["Link 22\nHF/UHF · SATCOM-independent\nMaritime focus"]
-        JREAP["JREAP\nLink 16 over SATCOM\nAdds latency"]
-        PWSA["SDA Transport Layer\nLink 16 from LEO space\nNo new terminals needed"]
+        L22["Link 22<br/>HF/UHF · SATCOM-independent<br/>Maritime focus"]
+        JREAP["JREAP<br/>Link 16 over SATCOM<br/>Adds latency"]
+        PWSA["SDA Transport Layer<br/>Link 16 from LEO space<br/>No new terminals needed"]
     end
-
+```
     L16 -->|"BLOS extension"| JREAP
     L16 -->|"Space relay"| PWSA
-    MADL -->|"Gateway F-35\ntranslates to"| L16
+    MADL -->|"Gateway F-35<br/>translates to"| L16
 
     style LOS fill:#1a3a5c,color:#fff
     style BLOS fill:#3a1a5c,color:#fff

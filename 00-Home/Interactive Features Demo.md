@@ -22,12 +22,12 @@ Obsidian renders [Mermaid.js](https://mermaid.js.org) diagrams natively. No plug
 
 ```mermaid
 flowchart LR
-    F["🔍 FIND\nSIGINT sats · GMTI\nISR constellation"]
-    FX["📍 FIX\nNGA imagery\nELINT TDOA · GPS"]
-    T["👁️ TRACK\nSATCOM relay\nData links"]
-    TG["🎯 TARGET\nGPS coordinates\nto weapon"]
-    E["💥 ENGAGE\nGPS guidance\nSATCOM updates"]
-    A["📊 ASSESS\nSatellite BDA\nPre-impact imaging"]
+    F["🔍 FIND<br/>SIGINT sats · GMTI<br/>ISR constellation"]
+    FX["📍 FIX<br/>NGA imagery<br/>ELINT TDOA · GPS"]
+    T["👁️ TRACK<br/>SATCOM relay<br/>Data links"]
+    TG["🎯 TARGET<br/>GPS coordinates<br/>to weapon"]
+    E["💥 ENGAGE<br/>GPS guidance<br/>SATCOM updates"]
+    A["📊 ASSESS<br/>Satellite BDA<br/>Pre-impact imaging"]
 
     F --> FX --> T --> TG --> E --> A
 
@@ -47,14 +47,14 @@ flowchart LR
 
 ```mermaid
 graph TD
-    CSO["🌟 Chief of Space Operations\nGen Saltzman"]
+    CSO["🌟 Chief of Space Operations<br/>Gen Saltzman"]
 
-    CSO --> CFC["⚔️ Combat Forces Command\nCFC — Peterson SFB"]
-    CSO --> SSC["🛰️ Space Systems Command\nSSC — LA AFB"]
-    CSO --> STAR["🎓 STARCOM\nPeterson SFB"]
-    CSO --> S4S["🔗 US Space Forces-Space\nS4S — Vandenberg SFB"]
+    CSO --> CFC["⚔️ Combat Forces Command<br/>CFC — Peterson SFB"]
+    CSO --> SSC["🛰️ Space Systems Command<br/>SSC — LA AFB"]
+    CSO --> STAR["🎓 STARCOM<br/>Peterson SFB"]
+    CSO --> S4S["🔗 US Space Forces-Space<br/>S4S — Vandenberg SFB"]
 
-    S4S -.->|"USSF component to"| USC["🌐 USSPACECOM\nCombatant Command"]
+    S4S -.->|"USSF component to"| USC["🌐 USSPACECOM<br/>Combatant Command"]
 
     CFC --> D2["Delta 2 · SDA"]
     CFC --> D3["Delta 3 · EW"]
@@ -62,8 +62,8 @@ graph TD
     CFC --> D8["Delta 8 · SATCOM"]
     CFC --> D9["Delta 9 · Orbital Warfare"]
 
-    USC --> CSpOC["CSpOC\nCombined Space Ops Centre"]
-    CSpOC --> AUS["🇦🇺 AUSSpOC\n(ADF embed)"]
+    USC --> CSpOC["CSpOC<br/>Combined Space Ops Centre"]
+    CSpOC --> AUS["🇦🇺 AUSSpOC<br/>(ADF embed)"]
 
     style CSO fill:#1a3a5c,color:#fff
     style S4S fill:#3a1a5c,color:#fff
@@ -75,11 +75,11 @@ graph TD
 ---
 
 ### Mind Map — Counterspace Threat Taxonomy
-
 ```mermaid
 mindmap
-  root((Counterspace\nThreats))
+  root((Counterspace<br/>Threats))
     Kinetic
+```
       DA-ASAT missiles
       Creates debris fields
       China · Russia · India · US

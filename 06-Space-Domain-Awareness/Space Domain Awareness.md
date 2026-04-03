@@ -20,20 +20,20 @@ aliases:
 ```mermaid
 graph LR
     subgraph Ground["Ground-Based Sensors"]
-        SF["Space Fence\nKwajalein · LEO"]
-        GEO_OPT["GEODSS\nSocorro · MEO/GEO\nNight/clear only"]
-        SST["SST Exmouth\nDeep-space · Southern sky"]
-        LRDR["LRDR\nAlaska · BMD + SSN"]
+        SF["Space Fence<br/>Kwajalein · LEO"]
+        GEO_OPT["GEODSS<br/>Socorro · MEO/GEO<br/>Night/clear only"]
+        SST["SST Exmouth<br/>Deep-space · Southern sky"]
+        LRDR["LRDR<br/>Alaska · BMD + SSN"]
     end
     subgraph Space["Space-Based Sensors"]
-        GSSAP["GSSAP\n6 × near-GEO inspection"]
-        SB["Silent Barker\nGEO surveillance"]
+        GSSAP["GSSAP<br/>6 × near-GEO inspection"]
+        SB["Silent Barker<br/>GEO surveillance"]
     end
     subgraph C2["C2 & Fusion"]
-        ATLAS["ATLAS\nSDA fusion platform\nOp accepted Sep 2025"]
-        CAT["Space Catalogue\n44,000+ objects\n18th SDS"]
+        ATLAS["ATLAS<br/>SDA fusion platform<br/>Op accepted Sep 2025"]
+        CAT["Space Catalogue<br/>44,000+ objects<br/>18th SDS"]
     end
-
+```
     Ground --> ATLAS
     Space --> ATLAS
     ATLAS --> CAT

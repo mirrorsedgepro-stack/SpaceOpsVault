@@ -15,21 +15,21 @@ tags:
 
 > [!abstract] Quick Summary
 > Describes the multinational framework for coalition space operations — centred on Operation Olympic Defender, CSpOC, and Combined Space Operations (CSpO) — and Australia's embedded role. Understanding this framework is essential for any ADF personnel deploying to or coordinating with US space organisations.
-
 ```mermaid
 graph TD
-    OOD["🌐 Operation Olympic Defender\nMultinational framework"]
+    OOD["🌐 Operation Olympic Defender<br/>Multinational framework"]
 
-    OOD --> US["🇺🇸 United States\nLead nation · CSpOC host"]
+    OOD --> US["🇺🇸 United States<br/>Lead nation · CSpOC host"]
+```
     OOD --> UK["🇬🇧 United Kingdom"]
-    OOD --> AUS["🇦🇺 Australia\nSST · MUOS · Pine Gap · WGS-6"]
+    OOD --> AUS["🇦🇺 Australia<br/>SST · MUOS · Pine Gap · WGS-6"]
     OOD --> CAN["🇨🇦 Canada"]
     OOD --> NZ["🇳🇿 New Zealand"]
     OOD --> GER["🇩🇪 Germany"]
     OOD --> FRA["🇫🇷 France"]
 
-    US --> CSpOC["CSpOC\nCombined Space Ops Centre\nVandenberg SFB"]
-    CSpOC --> AUSSpOC["AUSSpOC\nADF embed at CSpOC"]
+    US --> CSpOC["CSpOC<br/>Combined Space Ops Centre<br/>Vandenberg SFB"]
+    CSpOC --> AUSSpOC["AUSSpOC<br/>ADF embed at CSpOC"]
 
     style OOD fill:#1a3a5c,color:#fff
     style CSpOC fill:#5c1a1a,color:#fff

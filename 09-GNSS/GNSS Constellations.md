@@ -28,16 +28,16 @@ tags:
 ```mermaid
 graph LR
     subgraph US["🇺🇸 GPS — USA"]
-        G1["31 satellites · MEO 20,200 km\nL1/L2/L5 · M-Code military\nBest accuracy globally"]
+        G1["31 satellites · MEO 20,200 km<br/>L1/L2/L5 · M-Code military<br/>Best accuracy globally"]
     end
     subgraph RU["🇷🇺 GLONASS — Russia"]
-        R1["24 satellites · MEO 19,100 km\nFDMA architecture\nDegrades without GPS"]
+        R1["24 satellites · MEO 19,100 km<br/>FDMA architecture<br/>Degrades without GPS"]
     end
     subgraph CN["🇨🇳 BeiDou — China"]
-        B1["35+ satellites · MEO + GEO + IGSO\nB3A anti-jam military signal\nSMC two-way datalink"]
+        B1["35+ satellites · MEO + GEO + IGSO<br/>B3A anti-jam military signal<br/>SMC two-way datalink"]
     end
     subgraph EU["🇪🇺 Galileo — EU"]
-        E1["30 satellites · MEO 23,222 km\nHigh-accuracy civilian\nNo dedicated military signal"]
+        E1["30 satellites · MEO 23,222 km<br/>High-accuracy civilian<br/>No dedicated military signal"]
     end
 
     style US fill:#1a3a5c,color:#fff

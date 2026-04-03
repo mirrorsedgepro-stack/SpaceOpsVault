@@ -23,14 +23,14 @@ aliases:
 
 ```mermaid
 graph TD
-    SC["🇦🇺 Space Command Australia\nAVM level"]
-    SC --> SPACECOMD["Space Command\nHMAS Harman, ACT"]
-    SPACECOMD --> SSU["1 Space Surveillance Unit\n1SSU — Adelaide"]
-    SPACECOMD --> AUSSpOC["AUSSpOC\nAustralian Space Operations Centre"]
+    SC["🇦🇺 Space Command Australia<br/>AVM level"]
+    SC --> SPACECOMD["Space Command<br/>HMAS Harman, ACT"]
+    SPACECOMD --> SSU["1 Space Surveillance Unit<br/>1SSU — Adelaide"]
+    SPACECOMD --> AUSSpOC["AUSSpOC<br/>Australian Space Operations Centre"]
 
-    SSU --> SST["SST Exmouth\nC-band deep-space telescope\nRAF Exmouth WA"]
-    AUSSpOC -.->|"Liaison / embed"| CSpOC["🌐 CSpOC\nCombined Space Ops Centre\nVandenberg SFB"]
-    AUSSpOC -.->|"Op DYURRA"| OOD["Operation Olympic Defender\nMultinational framework"]
+    SSU --> SST["SST Exmouth<br/>C-band deep-space telescope<br/>RAF Exmouth WA"]
+    AUSSpOC -.->|"Liaison / embed"| CSpOC["🌐 CSpOC<br/>Combined Space Ops Centre<br/>Vandenberg SFB"]
+    AUSSpOC -.->|"Op DYURRA"| OOD["Operation Olympic Defender<br/>Multinational framework"]
 
     style SC fill:#1a5c1a,color:#fff
     style CSpOC fill:#5c1a1a,color:#fff

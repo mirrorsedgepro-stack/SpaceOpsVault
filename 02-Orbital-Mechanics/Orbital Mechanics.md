@@ -36,7 +36,7 @@ graph TD
         MUOS["MUOS · 5 satellites"]
         GSSAP["GSSAP · near-GEO inspection"]
     end
-    LEO -->|"Higher = slower\nLonger period"| MEO
+    LEO -->|"Higher = slower<br/>Longer period"| MEO
     MEO --> GEO
 
     style LEO fill:#1a3a5c,color:#fff

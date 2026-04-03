@@ -21,19 +21,19 @@ tags:
 ```mermaid
 graph LR
     subgraph Protected["🔒 Protected — EHF · Anti-jam · Nuclear survivable"]
-        AEHF["AEHF\n6 × GEO\nNCA + select allies"]
+        AEHF["AEHF<br/>6 × GEO<br/>NCA + select allies"]
     end
     subgraph Wideband["📡 Wideband — X/Ka band · High throughput"]
-        WGS["WGS\n10 × GEO\n⚠️ No anti-jam"]
+        WGS["WGS<br/>10 × GEO<br/>⚠️ No anti-jam"]
     end
     subgraph Narrowband["📻 Narrowband — UHF · Man-portable"]
-        MUOS["MUOS\n5 × GEO\n3G-like · AUS hosts ground station"]
+        MUOS["MUOS<br/>5 × GEO<br/>3G-like · AUS hosts ground station"]
     end
     subgraph LEO["🛰️ Proliferated LEO — emerging"]
-        PWSA["SDA Transport Layer\nBLOS Link 16 relay"]
-        MILNET["MILNET (2027+)\n480 × LEO · SpaceX"]
+        PWSA["SDA Transport Layer<br/>BLOS Link 16 relay"]
+        MILNET["MILNET (2027+)<br/>480 × LEO · SpaceX"]
     end
-
+```
     style Protected fill:#5c1a1a,color:#fff
     style Wideband fill:#1a3a5c,color:#fff
     style Narrowband fill:#1a5c1a,color:#fff
