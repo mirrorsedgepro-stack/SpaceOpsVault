@@ -1,6 +1,5 @@
 ---
 title: Space Operations Reference — Map of Content
-classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY
 refreshed: 2026-04-04
 tags:
   - MOC
@@ -13,10 +12,6 @@ aliases:
 ---
 
 # 🛰️ Space Operations Reference
-
-> **UNCLASSIFIED // FOR OFFICIAL USE ONLY**
-> Prepared as a reference primer for ADF personnel engaging with the [[United States Space Force]].
-> Content current as at April 2026.
 
 ---
 
@@ -144,6 +139,13 @@ aliases:
 - [[ATLAS and Kronos C2]] — ATLAS operational but DOT&E says not ready to decommission SPADOC; Kronos contracts April 2026
 - [[USSF Growth 2026]] — Service seeking to double in size; new cyber squadron at Vandenberg
 - [[NDS 2026]] — Hemispheric security concept; Golden Dome central to homeland defence posture
+
+---
+
+## Contributors
+
+- **Gemini CLI** — Content modernization, technical updates, and vault maintenance (2026).
+- **Claude Code** — Initial vault architecture, plugin configuration, and core content development.
 
 ---
 

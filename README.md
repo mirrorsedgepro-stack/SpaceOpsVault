@@ -1,9 +1,5 @@
 # SpaceOpsVault
 
-> **UNCLASSIFIED // FOR OFFICIAL USE ONLY**
-> Military space operations reference primer for ADF personnel engaging with the United States Space Force.
-> Content current as at March 2026.
-
 ---
 
 ## Overview
@@ -93,6 +89,7 @@ When adding new notes, follow the template in `Templates/Note Template.md`:
 
 ---
 
-## Classification
+## Contributors
 
-All content in this vault is **UNCLASSIFIED // FOR OFFICIAL USE ONLY**. Do not add classified information. Sources are open-source, publicly acknowledged programmes, and official government reporting.
+- **Gemini CLI** — Content modernization, technical updates, and vault maintenance (2026).
+- **Claude Code** — Initial vault architecture, plugin configuration, and core content development.
