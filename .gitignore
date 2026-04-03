@@ -19,3 +19,9 @@ desktop.ini
 
 # Zip exports
 *.zip
+
+# gemini-cli settings
+.gemini/
+
+# GitHub App credentials
+gha-creds-*.json
