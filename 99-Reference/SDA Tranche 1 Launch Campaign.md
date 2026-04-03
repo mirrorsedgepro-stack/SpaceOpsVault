@@ -24,7 +24,7 @@ tags:
 | **10 Sep 2025** | First T1 Transport Layer batch: 21 York Space Systems satellites |
 | **15 Oct 2025** | Second batch: 21 Lockheed Martin satellites |
 | Late 2025 | Launches paused (vendor readiness + facility issues) |
-| Early 2026 | Launches resumed; Northrop Grumman T1TL set for early 2026 |
+| **April/May 2026** | **T1TL-A launch** (21 Northrop Grumman satellites) targeted after technical delays. |
 | 2026 | **10 launches planned**: 6 Transport + 4 Tracking |
 
 ## Full Constellation
@@ -40,7 +40,7 @@ tags:
 
 ## Tranche 2 and 3
 
-- **Tranche 2**: 550+ satellites; first launches expected late 2026/early 2027
+- **Tranche 2**: Manufacturing ahead of schedule; Sierra Space completed first 9 structures 3 months early (Jan 2026). First launches expected **September 2026**.
 - **Tranche 3 Tracking**: 72 satellites; $3.5B contracted to L3Harris, Lockheed Martin, Northrop Grumman, Rocket Lab (Dec 2025)
 
 > [!warning]- Constraints, Limitations and Assumptions

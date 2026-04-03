@@ -48,27 +48,22 @@ graph TD
 ### No. 1 Space Surveillance Unit (1SSU)
 - HQ: Edinburgh SA
 - Operates C-Band Radar and [[SST Exmouth|SST]] at Exmouth WA
+- **DARC**: Deep Space Advanced Radar Capability (AUKUS project) progressing at Exmouth for 24/7 GEO tracking.
 - Commercial Data Mission Centre at Lot 14, Adelaide
-- First joint space unit; established **January 2023**
 
-### AUSSpOC (Australian Space Operations Centre)
-- RAAF GPCAPT serves as **CSpOC Deputy Director** at Vandenberg SFB
-- Deeply embedded in [[Coalition Space Operations|CSpOC]]
+### Defence Space and Cyber School
+- Location: **Florence McKenzie Building**, HMAS Harman, ACT (unveiled 2026).
+- Purpose-built for classified technical training and simulation for new recruits.
 
-> [!tip] Hot Tip
-> AUSSpOC is Australia's direct interface to CSpOC — if you are an ADF operator needing to pass space data or a space support request into the coalition, AUSSpOC is your chain. Do not attempt to route requests directly to USSPACECOM without going through AUSSpOC first, as this bypasses the agreed coordination architecture and can create deconfliction problems.
+### Workforce Updates (2026)
+- **Direct-Entry Recruitment**: Officially opened February 2026 for **Space Operations Officers** and **Space Operations Specialists**.
+- **Katherine Bennell-Pegg**: RAAF reservist and astronaut named **2026 Australian of the Year**, boosting military space recruitment.
 
-### Op DYURRA
-- Australia's dedicated ADF space operation
-- Name from Ngunnawal word for stars
-- Participates in [[Operation Olympic Defender]]
+## Strategic Shift: Space Control
+Following the 2024 cancellation of JP 9102, the ADF has prioritized **Space Control** — developing capabilities to assure Australian access while disrupting adversary use through non-kinetic effects (Project DEF 9358).
 
-> [!tip] Hot Tip
-> Op DYURRA is the name of Australia's contribution to coalition space operations — knowing this name matters for planning documents, reporting, and conversations with USSF counterparts. Using the correct operation name signals that you understand the bilateral framework, not just the technical capabilities.
-
-## Concept SELENE (2024)
-
-> ADF will seek space advantage by **temporally assuring access** and **disrupting/denying adversary use**.
+## Concept ASPECT (2026)
+Theme of the 2026 Air and Space Power Conference; focuses on "building fighting depth" and ensuring ADF can exploit space power in contested environments.
 
 ## Investment
 

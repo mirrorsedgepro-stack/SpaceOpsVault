@@ -15,6 +15,7 @@ tags:
 | --- | --- |
 | AEHF | Advanced Extremely High Frequency (SATCOM) |
 | AMTI | Air Moving Target Indicator |
+| ASF | Aerospace Force (China) |
 | ATLAS | Advanced Tracking and Launch Analysis System |
 | AUSSpOC | Australian Space Operations Centre |
 | BDA | Battle Damage Assessment |
@@ -22,10 +23,13 @@ tags:
 | CEC | Cooperative Engagement Capability |
 | CDL | Common Data Link |
 | CFC | Combat Forces Command |
+| CRPA | Controlled Reception Pattern Antenna |
+| CSF | Cyberspace Force (China) |
 | CSpOC | Combined Space Operations Center |
 | DA-ASAT | Direct-Ascent Anti-Satellite |
 | DPI | Desired Point of Impact |
 | DRFM | Digital Radio Frequency Memory |
+| DSO | Dynamic Space Operations |
 | EA | Electronic Attack |
 | ELINT | Electronic Intelligence |
 | EMCON | Emissions Control |
@@ -35,6 +39,7 @@ tags:
 | EP | Electronic Protection |
 | EPS | Evolved Polar System (AEHF replacement) |
 | ES/ESM | Electronic Support / Measures |
+| ESS | Evolved Strategic SATCOM |
 | F2T2EA | Find, Fix, Track, Target, Engage, Assess |
 | FISINT | Foreign Instrumentation Signals Intelligence |
 | GEO | Geosynchronous Earth Orbit (~35,786 km) |
@@ -43,7 +48,9 @@ tags:
 | GNSS | Global Navigation Satellite System |
 | GSSAP | Geosynchronous Space Situational Awareness Program |
 | HEO | Highly Elliptical Orbit |
+| HPM | High-Power Microwave |
 | INS | Inertial Navigation System |
+| ISF | Information Support Force (China) |
 | ISR | Intelligence, Surveillance and Reconnaissance |
 | JADC2 | Joint All-Domain Command and Control |
 | JREAP | Joint Range Extension Applications Protocol |
@@ -58,14 +65,18 @@ tags:
 | NIFC-CA | Naval Integrated Fire Control – Counter Air |
 | NMA | Navigation Message Authentication |
 | NRO | National Reconnaissance Office |
+| OCT | Optical Communication Terminal |
 | OPIR | Overhead Persistent Infrared |
 | PNT | Positioning, Navigation and Timing |
 | PRS | Public Regulated Service (Galileo) |
+| PTS-P | Protected Tactical SATCOM Prototype |
 | PWSA | Proliferated Warfighter Space Architecture (SDA constellation) |
+| RG-XX | GSSAP follow-on program |
 | RPO | Rendezvous and Proximity Operations |
 | S4S | US Space Forces-Space |
 | SATCOM | Satellite Communications |
 | SBIRS | Space-Based Infrared System |
+| SBNW | Space-Based Nuclear Weapon |
 | SDA | Space Domain Awareness |
 | SMC | Short Message Communication (BeiDou tactical datalink) |
 | SSA | Space Situational Awareness (predecessor to SDA) |

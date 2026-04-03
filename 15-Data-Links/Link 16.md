@@ -44,10 +44,11 @@ aliases:
 ## Key Milestones
 
 - **First transmitted from space**: November 2023 by [[SDA Transport Layer (PWSA)|SDA Tranche 0]]
-- This means existing Link 16 radios can connect to the space layer — no new equipment needed
+- **FAA Approval (2026)**: In early 2026, the SDA received certification to broadcast Link 16 signals from space into the U.S. National Airspace System.
+- **Bi-directional Comms**: Successful 2025–2026 demonstrations of transmitting "fire control" messages from LEO to standard ground-based radios.
 
 > [!tip] Hot Tip
-> The SDA Tranche 0 satellite first relayed Link 16 in November 2023 — existing Link 16 terminals can connect to the space layer without new radios. If you have Link 16 today, you can use space-based BLOS relay now.
+> The SDA Tranche 0 satellite first relayed Link 16 in November 2023 — existing Link 16 terminals can connect to the space layer without new radios. In 2026, Link 16 from space is transitioning to full-scale operational testing over the U.S. soil.
 
 ## Detection Vulnerability
 
@@ -58,7 +59,7 @@ This is why:
 - F-35 uses [[MADL]] operationally and only translates to Link 16 from rearward positions
 
 > [!tip] Hot Tip
-> Link 16 emissions in L-band are detectable at significant range by adversary ESM — in a contested environment, transmitting on Link 16 is not covert. Platforms should understand that their position can be estimated from their Link 16 emissions alone, which is why F-22 was receive-only and F-35 uses MADL operationally.
+> Space-based Link 16 removes the "horizon limit" of the link. A J-20 or J-16 (see [[J-20_Fighter]]) can no longer hide behind the curvature of the Earth to avoid being part of the common tactical picture. For ADF planners, this means a "Link 16 active" environment is now truly global.
 
 ## ADF Platforms
 

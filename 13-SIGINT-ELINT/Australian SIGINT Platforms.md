@@ -20,13 +20,11 @@ tags:
 
 ## MC-55A Peregrine (No. 10 Sqn)
 
-- **4 on order**; $1.6B (AIR 555)
-- **First delivered January 2026**
+- **4 aircraft**; $1.6B (AIR 555)
+- **Status (2026)**: First aircraft delivered January 2026; currently undergoing operational evaluation.
 - COMINT: 30–1200 MHz
 - ELINT: 0.5–40 GHz
 - Ceiling: 51,000 ft; endurance: 15 hours
-- **Networking relay**: links F-35A/E-7A/EA-18G/surface combatants
-- Uses [[Tactical Data Links Overview|CDL]] for ISR data transfer
 
 ## EA-18G Growler (No. 6 Sqn)
 
@@ -34,22 +32,17 @@ tags:
 - Generates ELINT targeting data
 - RAAF is **only non-US operator**
 
-## P-8A Poseidon (No. 11 Sqn)
+## Project M2 (M2-A & M2-B)
+- **Status (2026)**: Twin 6U CubeSats remain **operational** as the primary sovereign benchmark for Australian space SIGINT.
+- **Key Features**: Software-defined radios (SDR), formation-flying algorithms, and "Volkh" on-board edge computing for real-time maritime surveillance.
 
-- **15 aircraft**
-- Maritime ESM/ELINT as secondary role
-
-## Collins-class Submarine
-
-- Periscope-mounted ESM
-- Future **SSN-AUKUS** will carry ESM
-
-## Adversary Collection Against ADF
-
-> **Chinese Type 815A** intelligence ship observed near Talisman Sabre — collects ADF radar emissions and tactical procedures.
+## Project DEF 799
+- **Phase 1**: Fully operational; high-priority commercial imagery access via Adelaide (RAAF Edinburgh).
+- **Phase 2 (2026 Status)**: Following the 2024 National Defence Strategy (NDS), focus has shifted toward **smaller, more resilient sovereign constellations** in multiple orbits.
+- **Workforce**: 2026 marks the first year of dedicated **direct-entry recruitment** for ADF Space Operations Specialists.
 
 > [!tip] Hot Tip
-> The MC-55A Peregrine is Australia's newest and most capable airborne SIGINT platform — it significantly increases ADF's organic collection capability in the Indo-Pacific. Understanding what it can collect matters for planning; understanding its vulnerabilities (it is not a stealth aircraft) matters for force protection.
+> Australia's pivot from large, single-mission satellites to "smaller and more numerous" platforms (like the M2 model) mirrors the US [[SDA Transport Layer (PWSA)\|PWSA]] approach. In 2026, expect Australian sovereign SIGINT to favor distributed LEO constellations for resilience.
 
 ---
 

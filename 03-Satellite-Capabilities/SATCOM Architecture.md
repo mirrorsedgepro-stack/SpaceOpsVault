@@ -61,29 +61,23 @@ graph LR
 ## WGS (Wideband Global SATCOM)
 
 - 10 operational satellites (2024), Boeing BSS-702 bus, each ~5,987 kg
+- **WGS-11+**: Scheduled for launch **late 2026** aboard Vulcan Centaur; provides 2x the capacity of the entire previous WGS constellation and hosts the **Protected Tactical SATCOM Prototype (PTS-P)**.
 - [[Orbital Mechanics|GEO]] distributed over Pacific, Indian, Atlantic Oceans
 - ~4.875 GHz instantaneous bandwidth with X/Ka cross-banding onboard
-- Design life: 14+ years
-- **Australia** was the first international participant: WGS-6 funded at **A$927M** (2007), launched August 2013; global access until ~2029
-- SGS-West ([[Australia Space Contribution|Kojarena, WA]]) can anchor three WGS satellites simultaneously
 
-> ⚠️ **Critical Limitation**: WGS has **no anti-jam protection** — this is the most significant SATCOM vulnerability. See [[Satellite Jamming Techniques]].
-
-> [!tip] Hot Tip
-> WGS has zero anti-jam protection — in any contested scenario, assume WGS may be degraded and have a UHF/MUOS fallback plan ready. ADF's WGS-6 access window closes ~2029; successor arrangements are not yet confirmed.
+---
 
 ## AEHF (Advanced Extremely High Frequency)
 
-- 6 satellites in [[Orbital Mechanics|GEO]]
-- Frequency: EHF (30–300 GHz)
-- **Anti-jam**: frequency-hopping, spread spectrum, nulling antennas
-- **Nuclear survivable** (EMP hardened)
-- Users: National Command Authority, strategic forces, select allied users
-- Replacement: Evolved Strategic SATCOM (EPS) in development
+- 6 satellites in [[Orbital Mechanics|GEO]]; nuclear survivable NC3 backbone.
+- **Evolved Strategic SATCOM (ESS)**: Boeing awarded $2.8B contract (July 2025); $1.29B requested in FY2026 budget. Successor to AEHF; first delivery expected **2031**.
+
+---
 
 ## MUOS (Mobile User Objective System)
 
 - 5 satellites in [[Orbital Mechanics|GEO]] (4 operational + 1 spare); US Navy-led
+- **Service Life Extension (SLE)**: USSF down-selecting provider in **FY2026** for MUOS-6 and MUOS-7; launches expected ~2030 to extend service through 2035.
 - 4 ground stations globally:
   - **[[Australia Space Contribution|Kojarena]] (Australia)** 🇦🇺
   - Niscemi (Sicily) 🇮🇹

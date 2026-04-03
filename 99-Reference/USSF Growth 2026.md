@@ -15,6 +15,8 @@ tags:
 ## Key Developments
 
 - Space Force leaders calling for service to **double in size**
+- FY2026 budget request approached **$40 billion**, reflecting significant investment in hybrid military-commercial architectures.
+- **Objective Force Framework**: Expected in early 2026 to detail personnel and architecture for the next 15 years.
 - CFC commander: growth needed for expanding **forward-operating units**
 - New **cyber defence squadron** established at Vandenberg SFB (March 2026) — protecting physical and digital launch infrastructure
 - 2026 designated **Year of Integration** for [[USSPACECOM]]

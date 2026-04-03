@@ -1,7 +1,7 @@
 ---
 title: Space Operations Reference — Map of Content
 classification: UNCLASSIFIED // FOR OFFICIAL USE ONLY
-refreshed: 2026-03-26
+refreshed: 2026-04-04
 tags:
   - MOC
   - space-operations
@@ -16,7 +16,7 @@ aliases:
 
 > **UNCLASSIFIED // FOR OFFICIAL USE ONLY**
 > Prepared as a reference primer for ADF personnel engaging with the [[United States Space Force]].
-> Content current as at March 2026.
+> Content current as at April 2026.
 
 ---
 

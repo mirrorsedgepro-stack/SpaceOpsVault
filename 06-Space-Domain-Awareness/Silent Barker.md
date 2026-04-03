@@ -18,8 +18,11 @@ tags:
 
 - Space-based [[Orbital Mechanics|GEO]] surveillance constellation
 - Next-gen **persistent GEO monitoring**
-- Currently operational with initial capability
+- **Full Operational Capability (FOC)**: Reached mid-2026
 - Complements [[GSSAP]] (manoeuvrable inspection) with persistent wide-area watch
+
+> [!tip] Hot Tip
+> In December 2025, the USSF announced a follow-on "solo" constellation to succeed the joint NRO/USSF Silent Barker program.
 
 > [!tip] Hot Tip
 > Silent Barker represents a major shift — it watches GEO from within GEO, making it far harder to blind than ground-based optical sensors. When assessing GEO threat detection capability, Silent Barker plus GSSAP together create a layered picture that adversaries cannot easily interrupt with a single action.

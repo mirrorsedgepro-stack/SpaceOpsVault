@@ -20,12 +20,12 @@ tags:
 
 ## Force Organisation
 
-- Created **Information Support Force** in 2024 (disbanded Strategic Support Force)
-- Deeper integration of space/cyber/EW under unified command
+- Created **Aerospace Force (ASF)**, **Cyberspace Force (CSF)**, and **Information Support Force (ISF)** in 2024 (disbanded Strategic Support Force)
+- ASF manages all military space operations; CSF focuses on offensive cyber targeting space links
 
 ## Satellite Fleet
 
-- Operational satellite fleet exceeded **1,060** by mid-2025
+- Operational satellite fleet exceeded **1,300** by late-2025 (over 510 ISR satellites)
 - Accelerating launch rates
 - When paired with AI processing: near-real-time global target detection including naval vessels and force movements
 - See [[SIGINT Satellites by Nation]] for Yaogan ELINT constellation (~40 naval ELINT satellites)
@@ -34,12 +34,12 @@ tags:
 
 | Capability | Status |
 | --- | --- |
-| **DA-ASAT** | Demonstrated 2007 (Fengyun-1C); operational |
-| **Ground-based laser ASAT** | Possesses capability; dazzle/blind sensors |
-| **GEO jamming satellites** | Reports of experimental capability |
-| **Co-orbital / RPO** | SJ-series demonstrating advanced manoeuvring |
+| **DA-ASAT** | Demonstrated 2007 (Fengyun-1C); operational; MEO/GEO capability emerging |
+| **Ground-based laser ASAT** | Possesses capability (Korla site); dazzle/blind sensors |
+| **HPM Weapons** | Truck-mounted 20GW microwave weapons (TPG1000Cs) revealed 2026 |
+| **Co-orbital / RPO** | SJ-series demonstrating advanced manoeuvring; SJ-21 refuelled SJ-25 in late 2025 |
 | **GPS/SATCOM jamming** | PLA exercises regularly incorporate jammers |
-| **Cyber** | Persistent targeting of space ground infrastructure |
+| **Cyber** | Persistent targeting by **Volt Typhoon** of space ground infrastructure |
 
 > [!tip] Hot Tip
 > China's 2007 Fengyun-1C ASAT test created 3,000+ fragments that are still in orbit — this debris field remains a hazard for every LEO operator today. China demonstrated capability 18 years ago; assume they have improved significantly since.

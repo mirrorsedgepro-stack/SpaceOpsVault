@@ -26,6 +26,7 @@ tags:
 | **SDP 3-0 Operations** | 2023 | Keystone USSF operations doctrine |
 | **SDP 3-100 SDA** | 2023 | [[Space Domain Awareness]] doctrine |
 | **SDP 3-101 Targeting** | 2024 | [[Space-Based Targeting]] doctrine |
+| **Space Warfighting: A Framework for Planners** | April 2025 | Key document marking USSF's shift to a warfighting service; defines space superiority and offensive/defensive space operations. |
 | **SDP 3-99 JADO** | 2021 | Joint all-domain operations |
 
 > [!tip] Hot Tip
@@ -48,7 +49,7 @@ tags:
 13. Space Mobility/Logistics
 
 > [!tip] Hot Tip
-> "Space Warfighting: A Framework for Planners" (April 2025) is the key document marking USSF's shift from a support service to a warfighting service. Reading this before engaging with USSF planners signals cultural awareness — USSF personnel increasingly identify with warfighting first, not space support, and doctrine conversations should reflect that framing.
+> As of 2026, "Space Warfighting: A Framework for Planners" is the baseline for "Dynamic Space Operations." It marks the cultural shift where Guardians identify as warfighters first. Reading this is essential for aligning with USSF's focus on "competitive endurance" and "space superiority."
 
 ---
 

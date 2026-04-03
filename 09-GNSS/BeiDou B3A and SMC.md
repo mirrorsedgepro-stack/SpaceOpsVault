@@ -21,15 +21,16 @@ tags:
 ## B3A — Anti-Jam Military Signal
 
 - **Frequency-hopping** + **Navigation Message Authentication (NMA)**
+- **2026 Status**: In-orbit software upgrade (March 2026) enhanced anti-spoofing and signal authentication for the B3A signal.
 - Makes BeiDou **essentially unjammable** against current Western EW capabilities
 - Iran–Israel June 2025 ("Twelve-Day War"): B3A rejected Israeli spoofing with **~98% positioning reliability** under heavy EW vs 70%+ [[GPS]] failure rates
 
 ## SMC — Short Message Communication
 
 > [!tip] Hot Tip
-> BeiDou SMC is a two-way datalink embedded in the navigation signal — Chinese forces can pass targeting coordinates via GNSS. This is a capability GPS does not have. If you encounter references to "retargeting via GNSS" in adversary TTPs, this is the mechanism.
+> BeiDou SMC is a two-way datalink embedded in the navigation signal — Chinese forces can pass targeting coordinates via GNSS. As of February 2026, this capability is integrated into standard smartphones and SIM cards in China for emergency use.
 
-- **560-bit two-way messaging** at 2,000 km range
+- **560-bit (Global) / 14,000-bit (Regional) two-way messaging**
 - Unique tactical datalink capability — **no Western GNSS equivalent**
 - Enables **in-flight weapon retargeting** without separate SATCOM
 - Creates a **closed-loop kill chain**: Chinese ISR detects target → BeiDou SMC transmits coordinates → weapon adjusts route automatically

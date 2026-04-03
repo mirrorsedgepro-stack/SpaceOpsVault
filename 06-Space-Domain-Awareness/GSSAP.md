@@ -21,10 +21,13 @@ aliases:
 - **6 near-GEO electro-optical inspection satellites**
 - Primary **eyes-on** capability for [[Orbital Mechanics|GEO]]
 - Can **manoeuvre to inspect** other satellites — including adversary platforms
-- Launched since 2014
+- **GSSAP-7 & 8**: Launched February 12, 2026 (USSF-87 mission) aboard Vulcan Centaur
 - Provides characterisation data for [[Space Domain Awareness|SDA]] that ground-based sensors cannot achieve
 
 > GSSAP enables the US to understand what adversary [[Orbital Mechanics|GEO]] satellites are doing — critical given the attribution challenge of [[Orbital Mechanics|RPO]].
+
+> [!tip] Hot Tip
+> As of 2026, USSF is soliciting for the **RG-XX** program — a follow-on fleet of smaller, more manoeuvrable reconnaissance satellites intended to augment or replace the current GSSAP constellation by 2030.
 
 > [!tip] Hot Tip
 > GSSAP is the US equivalent of what China and Russia are developing with their own RPO satellites — when an adversary satellite manoeuvres near a US asset, GSSAP provides the "eyes on" to characterise the threat. Understanding GSSAP helps you understand what US counterparts mean when they say they have "eyes on" a threat.

@@ -42,10 +42,23 @@ tags:
 > [!tip] Hot Tip
 > GPS jamming is the lowest-cost, highest-return counterspace option — a $500 jammer can deny GPS to a ~50km radius. Never plan an operation that is solely dependent on GPS for navigation or timing. Always identify your backup PNT source (INS, DME, celestial, terrain-referenced) before the operation begins.
 
-## GPS IIIF
+## Modernisation: GPS III and III-IF
 
-- Deploying with **M-Code** regional military protection
-- Enhanced anti-jam and anti-spoof for military users
+### GPS III
+- **Status**: 10 satellites total in first tranche; final launch **late April 2026** (SV10).
+- **GPS III SV09 (Ellison Onizuka)**: Launched **Jan 27, 2026**; operational.
+- **Features**: 3x better accuracy, 8x improved anti-jamming.
+
+### GPS IIIF
+- **Status**: First launch (SV11) projected for **late 2026 / early 2027**.
+- **Regional Military Protection (RMP)**: Provides 60x greater anti-jamming capability in contested theaters.
+
+### Ground Segment: OCX (The Bottleneck)
+- **Status (2026)**: Critical delay. Space Force is weighing potential **cancellation of the OCX program** (RTX) in early 2026 due to software defects.
+- **Impact**: Full M-Code operational capability remains restricted until ground control issues are resolved; 25+ satellites are M-Code capable, but the ground segment is not yet fully operational.
+
+> [!tip] Hot Tip
+> While 25+ satellites are M-Code capable, the lack of an operational OCX ground segment means M-Code is not yet "fully fielded" for universal operational use as of early 2026. Always verify local M-Code availability and receiver compatibility.
 
 > [!tip] Hot Tip
 > M-Code provides dramatically better anti-jam performance than the standard P(Y) code, but it requires specific military-grade receivers — verify your platform's receiver type before assuming M-Code capability. Many legacy ADF platforms still carry P(Y)-only receivers and will not benefit from M-Code improvements.

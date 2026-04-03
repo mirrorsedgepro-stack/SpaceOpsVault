@@ -21,13 +21,15 @@ tags:
 ## Kinetic ASAT
 
 - Conducted DA-ASAT test **2021** (Cosmos 1408 → 1,500+ debris fragments)
-- **Alleged nuclear ASAT** capability under development — serious allied concern
+- **Space-Based Nuclear ASAT (SBNW)**: Program under development (Cosmos 2553 pathfinder); threat of EMP disabling whole orbital planes
+- **S-500/S-550**: Entering service 2025-2026 with spacecraft interception capabilities
 
 > [!tip] Hot Tip
 > Russia's 2021 Cosmos 1408 ASAT test was a deliberate signal — they destroyed a Soviet-era satellite to demonstrate credibility while creating debris that threatened the ISS crew (including Russian cosmonauts). This tells you something about how Russia weighs signalling against operational consequence.
 
 ## Electronic Warfare
 
+- **Ekipazh (Project 14F350)**: Nuclear-powered satellite for high-power orbital jamming (expected 2026)
 - GPS jamming/spoofing mushroomed since 2024 across Baltic, Nordic, Ukraine, Black Sea, Middle East
 - EW integrated at **brigade level** as daily force protection (Ukraine)
 - See [[Russian EW Systems]] for detailed system profiles

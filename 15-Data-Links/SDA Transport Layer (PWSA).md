@@ -30,10 +30,13 @@ aliases:
 
 | Tranche | Satellites | Status | Capability |
 | --- | --- | --- | --- |
-| **Tranche 0** | 28 | On orbit | First [[Link 16]] from space (Nov 2023); ~50% connectivity, ~30 sec sessions |
-| **Tranche 1** | 154 (126 Transport + 28 Tracking) | Launching 2025–26 | Operational Link 16 + optical ISLs + Ka-band |
-| **Tranche 2** | 550+ | Contracts awarded; launches from late 2026 | Enhanced tracking + missile defence |
-| **Tranche 3** (Tracking) | 72 | $3.5B contracted Dec 2025 | Persistent midcourse missile tracking |
+| **Tranche 0** | 28 | On orbit | First [[Link 16]] from space (Nov 2023); ~50% connectivity |
+| **Tranche 1** | ~154 | Launching 2025–26 | ~42 on orbit; **Strategic Pause** in early 2026; **T1TL-A launch** (21 sats) April/May 2026 |
+| **Tranche 2** | ~270+ | High-rate manufacturing | Sierra Space completed structures 3 months early; first launch **Sept 2026** |
+| **Tranche 3** | ~72 (Tracking) | Contracted Dec 2025 | Persistent midcourse missile tracking |
+
+> [!tip] Hot Tip
+> The scarcity of **Optical Communication Terminals (OCTs)** and encryption devices remains the primary "critical path" for PWSA deployment in 2026. If coordinating with SDA, verify the OCT availability for specific satellite blocks.
 
 ## Tranche 1 Launch Campaign (Updated March 2026)
 

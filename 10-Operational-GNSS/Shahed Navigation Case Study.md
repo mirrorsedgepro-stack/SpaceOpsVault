@@ -23,27 +23,39 @@ tags:
 ```
 GNSS (primary)
   → INS (backup)
-    → Anti-jam antenna (Kometa-M / Chinese CRPA)
-      → RTK cellular (4G/3G centimetre accuracy)
-        → BeiDou SMC (in-flight retargeting)
+    → Anti-jam antenna (12/16-element CRPA)
+      → LTE/4G Modem (SIM card integration)
+        → AI Terminal Guidance (structure recognition)
 ```
+
+## Counter-EW: The CRPA Revolution (2025–2026)
+To defeat Western/Ukrainian jamming, the Russian-made **Geran-2** (Shahed derivative) has undergone a rapid evolution:
+
+- **16-Element CRPA**: Advanced **Controlled Reception Pattern Antenna** (internally mounted in fuselage center since late 2025) can create up to 15 "nulls" to ignore jammers.
+- **Resilience**: 2026 reporting shows these units remain functional even when targeted by **over 100 coordinated jammers**.
+- **LTE/4G Integration**: Use of commercial SIM cards (often from target-nation providers) allows the drone to transmit telemetry and receive mid-flight route updates via cellular networks, bypassing traditional RF jamming.
+- **AI Terminal Guidance**: Late 2025 models integrated AI for target recognition, allowing the drone to home in on specific structures (e.g., power substations) even if GNSS is lost in the final phase of flight.
+
+## Case Study: Geran-3 (Jet Variant)
+- **Speed**: Mach 0.4 - 0.5 (500–600 km/h)
+- **EW Impact**: High speed, combined with 16-element CRPA, reduces the "window of engagement" for ground-based EW.
+
+> [!tip] Hot Tip
+> The "hardened" Shahed/Geran is the baseline for modern loitering munitions. As of 2026, simple "bubble" jammers are ineffective. Kinetic interdiction or high-power microwave (HPM) are required to disrupt these platforms reliably.
 
 ## GNSS Evolution
 
-> [!tip] Hot Tip
-> The Shahed uses GLONASS, not GPS — this means US GPS jammers have no effect on its navigation. Counter-drone planning must account for which GNSS constellation the threat uses. Assuming GPS denial protects you from all GNSS-guided threats is a dangerous assumption.
-
 1. **Initial**: civilian GPS + GLONASS
 2. **Improved**: added [[BeiDou B3A and SMC|BeiDou]] (triple-constellation)
-3. **Current**: Iranian variants transitioned to **BeiDou B3A**
+3. **Current**: Iranian variants transitioned to **BeiDou B3A** (essentially unjammable)
 
 ## Operational Record
 
 | Theatre | Event |
 | --- | --- |
 | Ukraine | 4,652 drones neutralised May–Jul 2025 via EW + kinetic |
-| Iran–Israel Jun 2025 ("Twelve-Day War") | [[BeiDou B3A and SMC|B3A]] rejected Israeli spoofing; **~98% positioning reliability** under heavy EW vs 70%+ GPS failure |
-| RAF Akrotiri Mar 2026 | Strike debris confirmed Russian [[CRPA Anti-Jam Antennas|Kometa-M]] CRPA — confirming Russia–Iran technology transfer |
+| Iran–Israel Jun 2025 ("Twelve-Day War") | [[BeiDou B3A and SMC|B3A]] rejected Israeli spoofing; **~98% positioning reliability** |
+| Alabuga (Russia) | High-rate production of CRPA-equipped **Geran-2** using Chinese-made chipsets |
 
 ## Iranian BeiDou Timeline
 
