@@ -4,7 +4,7 @@
 
 ## Overview
 
-SpaceOpsVault is a structured [Obsidian](https://obsidian.md) knowledge vault covering the full spectrum of military space operations — from orbital mechanics and satellite capabilities through to counterspace threats, tactical data links, and coalition frameworks. It is designed as a self-contained onboarding and reference resource for ADF personnel working alongside or embedded with USSF.
+SpaceOpsVault is a structured [Obsidian](https://obsidian.md) knowledge vault covering the full spectrum of military space operations — from orbital mechanics and satellite capabilities through to counterspace threats, tactical data links, and coalition frameworks. 
 
 ---
 
