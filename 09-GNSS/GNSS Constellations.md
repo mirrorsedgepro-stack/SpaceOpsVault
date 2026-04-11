@@ -25,26 +25,14 @@ tags:
 | **[[BeiDou B3A and SMC\|BeiDou (BDS-3)]]** | China | 35+ (MEO+GEO+IGSO) | 21,500 km + GEO | **B3A** (freq-hop + NMA) | **Very strong** |
 | **Galileo** | EU (EUSPA/ESA) | 28+ | 23,222 km | PRS (EU gov/military only) | Good (PRS) |
 
-```mermaid
-graph LR
-    subgraph US["🇺🇸 GPS — USA"]
-        G1["31 satellites · MEO 20,200 km<br/>L1/L2/L5 · M-Code military<br/>Best accuracy globally"]
-    end
-    subgraph RU["🇷🇺 GLONASS — Russia"]
-        R1["24 satellites · MEO 19,100 km<br/>FDMA architecture<br/>Degrades without GPS"]
-    end
-    subgraph CN["🇨🇳 BeiDou — China"]
-        B1["35+ satellites · MEO + GEO + IGSO<br/>B3A anti-jam military signal<br/>SMC two-way datalink"]
-    end
-    subgraph EU["🇪🇺 Galileo — EU"]
-        E1["30 satellites · MEO 23,222 km<br/>High-accuracy civilian<br/>No dedicated military signal"]
-    end
-
-    style US fill:#1a3a5c,color:#fff
-    style RU fill:#5c1a1a,color:#fff
-    style CN fill:#5c3a00,color:#fff
-    style EU fill:#1a4a1a,color:#fff
-```
+> [!info] Four Global GNSS Constellations
+> 🇺🇸 **GPS** · 31 sats · MEO 20,200 km · L1/L2/L5 signals · M-Code military anti-jam · best global accuracy
+>
+> 🇷🇺 **GLONASS** · 24 sats · MEO 19,100 km · FDMA architecture · high polar coverage (64.8° inc.) · degrades without GPS augmentation
+>
+> 🇨🇳 **BeiDou (BDS-3)** · 35+ sats · MEO + GEO + IGSO hybrid · B3A frequency-hopping anti-jam military signal · SMC two-way datalink · essentially unjammable by current Western EW
+>
+> 🇪🇺 **Galileo** · 30 sats · MEO 23,222 km · high-accuracy civilian · PRS for EU gov/military only · OSNMA signal authentication reduces spoofing
 
 ## Key Points
 

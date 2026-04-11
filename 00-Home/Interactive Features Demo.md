@@ -14,113 +14,69 @@ tags:
 
 ---
 
-## 🟢 Mermaid Diagrams — Native
+## 🟢 Text Block Diagrams — Native
 
-Obsidian renders [Mermaid.js](https://mermaid.js.org) diagrams natively. No plugins required.
+Obsidian renders callout blocks, tables, and Unicode text natively. These are fully readable in both source and preview mode, work on all platforms, and require no plugins.
 
-### Flowchart — F2T2EA Kill Chain
+### Flow — F2T2EA Kill Chain
 
-```mermaid
-flowchart LR
-    F["🔍 FIND<br/>SIGINT sats · GMTI<br/>ISR constellation"]
-    FX["📍 FIX<br/>NGA imagery<br/>ELINT TDOA · GPS"]
-    T["👁️ TRACK<br/>SATCOM relay<br/>Data links"]
-    TG["🎯 TARGET<br/>GPS coordinates<br/>to weapon"]
-    E["💥 ENGAGE<br/>GPS guidance<br/>SATCOM updates"]
-    A["📊 ASSESS<br/>Satellite BDA<br/>Pre-impact imaging"]
+> [!info] F2T2EA Kill Chain — Space at Every Step
+> **🔍 FIND** → **📍 FIX** → **👁️ TRACK** → **🎯 TARGET** → **💥 ENGAGE** → **📊 ASSESS**
+>
+> ISR sats · GMTI · NGA imagery · GPS · SATCOM relay · data links · PNT to weapon · GPS guidance · satellite BDA
 
-    F --> FX --> T --> TG --> E --> A
-
-    style F fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style FX fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style T fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style TG fill:#7a3a00,color:#fff,stroke:#c06000
-    style E fill:#7a1a1a,color:#fff,stroke:#c03030
-    style A fill:#1a5c1a,color:#fff,stroke:#3a9a3a
-```
-
-> [!tip] Every coloured node in the kill chain has a dedicated note. Click through to [[Space-Based Targeting]], [[GMTI and AMTI]], or [[GPS]].
+> [!tip] Every step in the kill chain has a dedicated note. Click through to [[Space-Based Targeting]], [[GMTI and AMTI]], or [[GPS]].
 
 ---
 
-### Graph — USSF Command Structure
+### Hierarchy — USSF Command Structure
 
-```mermaid
-graph TD
-    CSO["🌟 Chief of Space Operations<br/>Gen Saltzman"]
-
-    CSO --> CFC["⚔️ Combat Forces Command<br/>CFC — Peterson SFB"]
-    CSO --> SSC["🛰️ Space Systems Command<br/>SSC — LA AFB"]
-    CSO --> STAR["🎓 STARCOM<br/>Peterson SFB"]
-    CSO --> S4S["🔗 US Space Forces-Space<br/>S4S — Vandenberg SFB"]
-
-    S4S -.->|"USSF component to"| USC["🌐 USSPACECOM<br/>Combatant Command"]
-
-    CFC --> D2["Delta 2 · SDA"]
-    CFC --> D3["Delta 3 · EW"]
-    CFC --> D4["Delta 4 · Missile Warning"]
-    CFC --> D8["Delta 8 · SATCOM"]
-    CFC --> D9["Delta 9 · Orbital Warfare"]
-
-    USC --> CSpOC["CSpOC<br/>Combined Space Ops Centre"]
-    CSpOC --> AUS["🇦🇺 AUSSpOC<br/>(ADF embed)"]
-
-    style CSO fill:#1a3a5c,color:#fff
-    style S4S fill:#3a1a5c,color:#fff
-    style USC fill:#5c1a1a,color:#fff
-    style CSpOC fill:#5c1a1a,color:#fff
-    style AUS fill:#1a5c1a,color:#fff
-```
+> [!info] USSF Command Structure
+> **🌟 Chief of Space Operations** · Gen Saltzman
+> ├── **⚔️ Combat Forces Command (CFC)** · Peterson SFB
+> │   ├── Delta 2 · SDA
+> │   ├── Delta 3 · EW
+> │   ├── Delta 4 · Missile Warning
+> │   ├── Delta 8 · SATCOM
+> │   └── Delta 9 · Orbital Warfare
+> ├── **🛰️ Space Systems Command (SSC)** · LA AFB
+> ├── **🎓 STARCOM** · Peterson SFB
+> └── **🔗 US Space Forces-Space (S4S)** · Vandenberg SFB
+> &nbsp;&nbsp;&nbsp;&nbsp;╌╌▶ **🌐 USSPACECOM** · Combatant Command
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── CSpOC · Combined Space Ops Centre
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🇦🇺 AUSSpOC (ADF embed)
 
 ---
 
-### Mind Map — Counterspace Threat Taxonomy
-```mermaid
-mindmap
-  root((Counterspace<br/>Threats))
-    Kinetic
-```
-      DA-ASAT missiles
-      Creates debris fields
-      China · Russia · India · US
-    Non-Kinetic
-      Directed energy
-      Laser dazzle / blind
-      HPM electronics damage
-    Electronic Warfare
-      Uplink jamming
-      Downlink jamming
-      GPS spoofing
-    Cyber
-      Ground station attacks
-      Command injection
-      Data manipulation
-    Co-orbital RPO
-      Intelligence collection
-      Pre-positioning
-      Latent attack capability
-```
+### Taxonomy — Counterspace Threat Categories
+
+> [!info] Counterspace Threat Taxonomy
+> **Kinetic DA-ASAT**
+> ↳ Direct-ascent missiles · creates persistent debris · China, Russia, India, US
+>
+> **Non-Kinetic / Directed Energy**
+> ↳ Laser dazzle/blind sensors · HPM damages electronics · no debris
+>
+> **Electronic Warfare**
+> ↳ Uplink jamming · downlink jamming · GPS spoofing
+>
+> **Cyber**
+> ↳ Ground station attacks · command injection · data manipulation
+>
+> **Co-orbital RPO**
+> ↳ Intelligence collection · pre-positioning · latent attack capability
 
 ---
 
 ### Timeline — SDA Architecture Evolution
 
-```mermaid
-timeline
-    title Space Domain Awareness: Key Milestones
-    2021 : Russia destroys Cosmos 1408
-         : 1,500+ fragments created
-    2023 : Silent Barker constellation launched
-         : GSSAP fleet expanded to 6 satellites
-         : First SDA Tranche 0 Link 16 relay from space
-    2025 : ATLAS declared operationally accepted (Sep)
-         : SDA Tranche 1 first batches launched (Sep/Oct)
-         : Tranche 3 $3.5B contract awarded (Dec)
-    2026 : 10 Tranche 1 launches planned
-         : Kronos C2 contracts expected (Apr)
-         : Predictive SDA AI/ML declared S4S priority
-    2029 : Tranche 2 initial launches expected
-```
+| Year | Milestone |
+|---|---|
+| **2021** | Russia destroys Cosmos 1408 — 1,500+ fragments created |
+| **2023** | Silent Barker constellation launched · GSSAP expanded to 6 sats · First SDA Tranche 0 Link 16 relay from space |
+| **2025** | ATLAS operationally accepted (Sep) · SDA Tranche 1 first batches launched (Sep/Oct) · Tranche 3 $3.5B contract (Dec) |
+| **2026** | 10 × Tranche 1 launches planned · Kronos C2 contracts expected (Apr) · Predictive SDA AI/ML declared S4S priority |
+| **2029** | Tranche 2 initial launches expected |
 
 ---
 
@@ -264,19 +220,15 @@ directional jammer and knowledge of the satellite's location can deny it without
 
 Renders inline bar, line, pie, and radar charts from YAML data blocks. Example use: threat actor capability radar chart, orbital debris growth over time, satellite count by constellation.
 
-```chart
-type: radar
-labels: [Kinetic ASAT, Directed Energy, EW/Jamming, Cyber, Co-orbital RPO]
-series:
-  - title: China
-    data: [5, 4, 4, 5, 5]
-  - title: Russia
-    data: [5, 3, 5, 4, 4]
-  - title: Iran
-    data: [2, 1, 4, 3, 1]
-width: 60%
-```
-*(Requires Charts plugin to render — appears as a radar chart comparing counterspace capability by domain.)*
+> [!info] Adversary Counterspace Capability Comparison *(open-source assessment · 1–5 scale)*
+>
+> | Threat Domain | 🇨🇳 China | 🇷🇺 Russia | 🇮🇷 Iran |
+> |---|:---:|:---:|:---:|
+> | Kinetic DA-ASAT | ●●●●● | ●●●●● | ●● |
+> | Directed Energy | ●●●● | ●●● | ● |
+> | EW / Jamming | ●●●● | ●●●●● | ●●●● |
+> | Cyber | ●●●●● | ●●●● | ●●● |
+> | Co-orbital RPO | ●●●●● | ●●●● | ● |
 
 ---
 
@@ -284,8 +236,17 @@ width: 60%
 
 | Feature | Where |
 |---|---|
-| Mermaid F2T2EA flowchart | [[Space-Based Targeting]] |
-| Mermaid USSF org chart | [[USSF Organisation]] |
+| Text flow chain — F2T2EA kill chain | [[Space-Based Targeting]] |
+| Text hierarchy — USSF org structure | [[USSF Organisation]] |
+| Text hierarchy — ADF Space C2 | [[ADF Space C2]] |
+| Text hierarchy — Coalition OOD network | [[Coalition Space Operations]] |
+| Text tier block — SATCOM architecture | [[SATCOM Architecture]] |
+| Text tier block — Orbital regime stack | [[Orbital Mechanics]] |
+| Text tier block — Data link LOS/BLOS | [[Tactical Data Links Overview]] |
+| Text tier block — GNSS constellations | [[GNSS Constellations]] |
+| Dot-matrix capability table — counterspace | [[Counterspace Threats Overview]] |
+| Multi-callout kill chain comparison | [[Kill Chain Comparison]] |
+| SDA sensor network text block | [[Space Domain Awareness]] |
 | Collapsible CLAs | All content notes (change `[!warning]` to `[!warning]-`) |
 | Self-test checkboxes | This note — copy the format to any topic note |
 | Dataview dashboard | [[Study Dashboard]] |

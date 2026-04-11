@@ -17,31 +17,21 @@ aliases:
 > [!abstract] Quick Summary
 > Explains the four core SDA functions — detect/track/identify, characterise, threat warning, and C2 integration — and the sensor network used to maintain the space catalogue. Understanding SDA is foundational to all space operations planning and threat assessment.
 
-```mermaid
-graph LR
-    subgraph Ground["Ground-Based Sensors"]
-        SF["Space Fence<br/>Kwajalein · LEO"]
-        GEO_OPT["GEODSS<br/>Socorro · MEO/GEO<br/>Night/clear only"]
-        SST["SST Exmouth<br/>Deep-space · Southern sky"]
-        LRDR["LRDR<br/>Alaska · BMD + SSN"]
-    end
-    subgraph Space["Space-Based Sensors"]
-        GSSAP["GSSAP<br/>6 × near-GEO inspection"]
-        SB["Silent Barker<br/>GEO surveillance"]
-    end
-    subgraph C2["C2 & Fusion"]
-        ATLAS["ATLAS<br/>SDA fusion platform<br/>Op accepted Sep 2025"]
-        CAT["Space Catalogue<br/>44,000+ objects<br/>18th SDS"]
-    end
-```
-    Ground --> ATLAS
-    Space --> ATLAS
-    ATLAS --> CAT
-
-    style Ground fill:#1a3a5c,color:#fff
-    style Space fill:#3a1a5c,color:#fff
-    style C2 fill:#5c1a1a,color:#fff
-```
+> [!info] SDA Sensor Network and C2 Fusion
+> **Ground-Based Sensors**
+> ↳ Space Fence · Kwajalein — LEO detection to marble-sized objects
+> ↳ GEODSS · Socorro — MEO/GEO optical tracking · night/clear weather only
+> ↳ SST Exmouth · WA — deep-space coverage of southern sky
+> ↳ LRDR · Alaska — S-band phased-array · primary BMD + secondary SSN
+>
+> **Space-Based Sensors**
+> ↳ GSSAP · 6 × near-GEO — primary eyes-on for GEO inspection
+> ↳ Silent Barker · GEO — next-gen persistent GEO surveillance
+>
+> All sensor feeds ↓
+> **ATLAS** · SDA fusion platform · operationally accepted Sep 2025
+> ↓
+> **Space Catalogue** · 44,000+ objects · maintained by 18th SDS
 
 ## Core SDA Functions
 

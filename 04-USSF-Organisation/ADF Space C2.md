@@ -21,21 +21,14 @@ aliases:
 > [!abstract] Quick Summary
 > Describes Australia's space command and control architecture — from Space Command Australia down to 1SSU and AUSSpOC — and how it integrates with USSPACECOM and coalition partners through Op DYURRA and the CSpOC embed.
 
-```mermaid
-graph TD
-    SC["🇦🇺 Space Command Australia<br/>AVM level"]
-    SC --> SPACECOMD["Space Command<br/>HMAS Harman, ACT"]
-    SPACECOMD --> SSU["1 Space Surveillance Unit<br/>1SSU — Adelaide"]
-    SPACECOMD --> AUSSpOC["AUSSpOC<br/>Australian Space Operations Centre"]
-
-    SSU --> SST["SST Exmouth<br/>C-band deep-space telescope<br/>RAF Exmouth WA"]
-    AUSSpOC -.->|"Liaison / embed"| CSpOC["🌐 CSpOC<br/>Combined Space Ops Centre<br/>Vandenberg SFB"]
-    AUSSpOC -.->|"Op DYURRA"| OOD["Operation Olympic Defender<br/>Multinational framework"]
-
-    style SC fill:#1a5c1a,color:#fff
-    style CSpOC fill:#5c1a1a,color:#fff
-    style OOD fill:#5c3a00,color:#fff
-```
+> [!info] ADF Space Command Structure
+> **🇦🇺 Space Command Australia** · AVM level
+> └── **Space Command (SPACECOMD)** · HMAS Harman, ACT
+> &nbsp;&nbsp;&nbsp;&nbsp;├── **1 Space Surveillance Unit (1SSU)** · Adelaide
+> &nbsp;&nbsp;&nbsp;&nbsp;│   └── SST Exmouth · C-band deep-space telescope · RAF Exmouth WA
+> &nbsp;&nbsp;&nbsp;&nbsp;└── **AUSSpOC** · Australian Space Operations Centre
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── ╌╌▶ 🌐 CSpOC · Vandenberg SFB (liaison / embed)
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ╌╌▶ Operation Olympic Defender (Op DYURRA)
 
 ## Space Command (SPACECOMD)
 
