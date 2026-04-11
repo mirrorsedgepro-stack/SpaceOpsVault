@@ -18,41 +18,29 @@ tags:
 > [!abstract] Quick Summary
 > Covers the three primary orbital regimes (LEO, MEO, GEO), how orbital physics determines satellite coverage and vulnerability, and the emerging threat of rendezvous and proximity operations (RPO) as a tool of space coercion.
 
-```mermaid
-graph TD
-    subgraph LEO["LEO — 160–2,000 km"]
-        ISS["ISS · 408 km"]
-        SDA["SDA PWSA · ~1,000 km"]
-        SF["Space Fence coverage"]
-    end
-    subgraph MEO["MEO — 2,000–35,786 km"]
-        GPS["GPS · 20,200 km"]
-        GLON["GLONASS · 19,100 km"]
-        GAL["Galileo · 23,222 km"]
-    end
-    subgraph GEO["GEO — 35,786 km"]
-        WGS["WGS · 5 Pacific/Atlantic/Indian"]
-        AEHF["AEHF · 6 satellites"]
-        MUOS["MUOS · 5 satellites"]
-        GSSAP["GSSAP · near-GEO inspection"]
-    end
-    LEO -->|"Higher = slower<br/>Longer period"| MEO
-    MEO --> GEO
-
-    style LEO fill:#1a3a5c,color:#fff
-    style MEO fill:#3a1a5c,color:#fff
-    style GEO fill:#5c3a00,color:#fff
-```
+> [!info] Orbital Regime Stack — Low to High
+> **🌍 LEO** · 160–2,000 km · ~90 min orbital period
+> ↳ ISS (408 km) · SDA PWSA (~1,000 km) · Space Fence coverage
+>
+> *↑ Higher orbit = slower satellite · longer period ↑*
+>
+> **🛰️ MEO** · 2,000–35,786 km · 2–24 hrs
+> ↳ GPS (20,200 km) · GLONASS (19,100 km) · Galileo (23,222 km)
+>
+> *↑*
+>
+> **🌐 GEO** · 35,786 km · 24 hrs — stationary relative to Earth
+> ↳ WGS (5 × Pacific/Atlantic/Indian) · AEHF (6 sats) · MUOS (5 sats) · GSSAP (near-GEO)
 
 ## Orbital Regimes
 
-| Regime | Altitude | Period | Key Occupants |
-| --- | --- | --- | --- |
-| **LEO** | 160–2,000 km | ~90 min | ISR, Starlink, ISS, debris |
-| **MEO** | 2,000–35,786 km | 2–24 hrs | [[GPS]], Galileo, GLONASS, [[BeiDou B3A and SMC\|BeiDou]] |
-| **GEO** | ~35,786 km | 24 hrs (stationary) | [[SATCOM Architecture\|SATCOM]], [[Missile Warning and Tracking\|missile warning]], weather |
-| **HEO** (Molniya) | Perigee ~500 km / Apogee ~40,000 km | ~12 hrs | Russian comms, some missile warning |
-| **Cislunar** | >36,000 km to ~384,000 km | Varies | Emerging; Lagrange points of strategic interest |
+| Regime            | Altitude                            | Period              | Key Occupants                                                                               |
+| ----------------- | ----------------------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
+| **LEO**           | 160–2,000 km                        | ~90 min             | ISR, Starlink, ISS, debris                                                                  |
+| **MEO**           | 2,000–35,786 km                     | 2–24 hrs            | [[GPS]], Galileo, GLONASS, [[BeiDou B3A and SMC\|BeiDou]]                                   |
+| **GEO**           | ~35,786 km                          | 24 hrs (stationary) | [[SATCOM Architecture\|SATCOM]], [[Missile Warning and Tracking\|missile warning]], weather |
+| **HEO** (Molniya) | Perigee ~500 km / Apogee ~40,000 km | ~12 hrs             | Russian comms, some missile warning                                                         |
+| **Cislunar**      | >36,000 km to ~384,000 km           | Varies              | Emerging; Lagrange points of strategic interest                                             |
 
 ## Key Concepts
 

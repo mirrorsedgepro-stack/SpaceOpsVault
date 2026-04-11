@@ -128,6 +128,7 @@ aliases:
 - [[Key Systems Quick Reference]]
 - [[Acronym Reference]]
 - [[Sources and Further Reading]]
+- [[Local Document Library]] — Attach locally-saved PDFs of primary source doctrine using Better File Link
 - [[Interactive Tools and Resources]] — Tracking tools, visualizers, news outlets, think tanks, education
 
 ---

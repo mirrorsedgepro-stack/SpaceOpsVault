@@ -18,24 +18,10 @@ tags:
 
 ## Space Enables Every Step of F2T2EA
 
-```mermaid
-flowchart LR
-    F["🔍 FIND<br/>SIGINT sats · GMTI<br/>ISR constellation"]
-    FX["📍 FIX<br/>NGA imagery<br/>ELINT TDOA · GPS"]
-    T["👁️ TRACK<br/>SATCOM relay<br/>Data links"]
-    TG["🎯 TARGET<br/>GPS coordinates<br/>to weapon"]
-    E["💥 ENGAGE<br/>GPS guidance<br/>SATCOM updates"]
-    A["📊 ASSESS<br/>Satellite BDA<br/>Pre-impact imaging"]
-
-    F --> FX --> T --> TG --> E --> A
-
-    style F fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style FX fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style T fill:#1a3a5c,color:#fff,stroke:#4a7ab5
-    style TG fill:#7a3a00,color:#fff,stroke:#c06000
-    style E fill:#7a1a1a,color:#fff,stroke:#c03030
-    style A fill:#1a5c1a,color:#fff,stroke:#3a9a3a
-```
+> [!info] F2T2EA Kill Chain — Space at Every Step
+> **🔍 FIND** → **📍 FIX** → **👁️ TRACK** → **🎯 TARGET** → **💥 ENGAGE** → **📊 ASSESS**
+>
+> ISR sats · GMTI · NGA imagery · GPS · SATCOM relay · data links · PNT to weapon · GPS guidance · satellite BDA
 
 | Step | Space Contribution |
 | --- | --- |
@@ -64,5 +50,8 @@ flowchart LR
 - [[GMTI and AMTI]]
 - [[Tomahawk Guidance]]
 - [[Kill Chain Comparison]]
+
+> [!file] SDP 3-101 Targeting — Local Copy
+> Attach a locally-saved copy of SDP 3-101 (Space-Based Targeting doctrine) in the [[Local Document Library]] using `Ctrl+P` → **Add file link**.
 
 **Related:** [[Tactical Data Links Overview]] · [[GPS]] · [[SATCOM Architecture]]

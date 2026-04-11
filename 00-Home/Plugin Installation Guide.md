@@ -71,6 +71,19 @@ These unlock the study log and calendar workflow described in [[Space Operations
 
 ---
 
+## File Linking Plugin
+
+- [ ] [Better File Link](obsidian://show-plugin?id=obsidian-file-link) — attach and embed local files (PDFs, documents, images) directly in notes via command palette; powers the [[Local Document Library]] offline reference system in this vault
+
+> [!tip] How to use Better File Link
+> 1. Position your cursor where you want the file link inserted
+> 2. Open the command palette (`Ctrl+P`) and run **Add file link**
+> 3. Browse to your locally saved PDF or document and select it
+> 4. Toggle **Embed** if you want the file to render inline rather than as a link
+> 5. Use **Check for broken file links** periodically to validate all your local paths
+
+---
+
 ## Export Plugin
 
 - [ ] [Pandoc](obsidian://show-plugin?id=pandoc) — export notes to PDF, Word, or HTML; requires [Pandoc](https://pandoc.org/installing.html) to be installed on your machine separately
@@ -88,6 +101,7 @@ If you prefer to browse manually: **Settings → Community Plugins → Browse**,
 | Charts | `obsidian-charts` | Data visualisation |
 | Templater | `templater-obsidian` | Smart note templates |
 | Calendar | `calendar` | Daily study logs |
+| Better File Link | `obsidian-file-link` | Link/embed local PDFs and documents |
 | File Tree Alternative | `file-tree-alternative` | Better folder navigation |
 | Folder Note | `folder-note-plugin` | Folder overview notes |
 | Tag Wrangler | `tag-wrangler` | Tag management |

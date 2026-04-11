@@ -38,32 +38,20 @@ aliases:
 
 ## Field Commands
 
-```mermaid
-graph TD
-    CSO["🌟 Chief of Space Operations<br/>Gen Saltzman"]
-
-    CSO --> CFC["⚔️ Combat Forces Command<br/>CFC — Peterson SFB"]
-    CSO --> SSC["🛰️ Space Systems Command<br/>SSC — LA AFB"]
-    CSO --> STAR["🎓 STARCOM<br/>Peterson SFB"]
-    CSO --> S4S["🔗 US Space Forces-Space<br/>S4S — Vandenberg SFB"]
-
-    S4S -.->|"USSF component to"| USC["🌐 USSPACECOM"]
-
-    CFC --> D2["Delta 2 · SDA"]
-    CFC --> D3["Delta 3 · EW"]
-    CFC --> D4["Delta 4 · Missile Warning"]
-    CFC --> D8["Delta 8 · SATCOM"]
-    CFC --> D9["Delta 9 · Orbital Warfare"]
-
-    USC --> CSpOC["CSpOC<br/>Combined Space Ops Centre"]
-    CSpOC --> AUS["🇦🇺 AUSSpOC<br/>(ADF embed)"]
-
-    style CSO fill:#1a3a5c,color:#fff
-    style S4S fill:#3a1a5c,color:#fff
-    style USC fill:#5c1a1a,color:#fff
-    style CSpOC fill:#5c1a1a,color:#fff
-    style AUS fill:#1a5c1a,color:#fff
-```
+> [!info] USSF Command Structure
+> **🌟 Chief of Space Operations** · Gen Saltzman
+> ├── **⚔️ Combat Forces Command (CFC)** · Peterson SFB
+> │   ├── Delta 2 · SDA
+> │   ├── Delta 3 · EW
+> │   ├── Delta 4 · Missile Warning
+> │   ├── Delta 8 · SATCOM
+> │   └── Delta 9 · Orbital Warfare
+> ├── **🛰️ Space Systems Command (SSC)** · LA AFB
+> ├── **🎓 STARCOM** · Peterson SFB
+> └── **🔗 US Space Forces-Space (S4S)** · Vandenberg SFB
+> &nbsp;&nbsp;&nbsp;&nbsp;╌╌▶ **🌐 USSPACECOM** (USSF component command)
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── CSpOC · Combined Space Ops Centre
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 🇦🇺 AUSSpOC (ADF embed)
 
 | Command | Mission | HQ |
 | --- | --- | --- |

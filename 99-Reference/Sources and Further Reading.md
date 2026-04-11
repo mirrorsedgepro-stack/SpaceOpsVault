@@ -18,6 +18,9 @@ tags:
 - **JP 3-85 Joint EMSO**
 - **Space Warfighting: A Framework for Planners** (April 2025) — codifies USSF shift to contested warfighting domain
 
+> [!file] Offline Copies
+> Save local PDFs and attach them in the [[Local Document Library]] using `Ctrl+P` → **Add file link** (Better File Link plugin). This lets you open primary sources directly from within Obsidian without needing a browser.
+
 ## Open-Source Threat Assessments
 
 > [!tip] Hot Tip
@@ -50,12 +53,19 @@ See [[Interactive Tools and Resources]] for the full list of tracking tools, vis
 - Defence Electromagnetic Spectrum Strategy (DEMSS)
 - ADF Space Power eManual — doctrinal companion to the Defence Space Strategy
 
+> [!file] Offline Copies
+> Attach locally saved ADF documents in [[Local Document Library]] using the Better File Link plugin. ADF documents are not always publicly accessible — saving a local copy and linking it here keeps the reference available offline and across networks.
+
 > [!warning]- Constraints, Limitations and Assumptions
 > **Constraints:** Several primary sources (JP 3-14, full NDS) are limited distribution — ADF access requires appropriate clearance and need-to-know.
 >
 > **Limitations:** This reading list reflects March 2026 — new significant publications may not be captured here.
 >
 > **Assumptions:** Assumes linked resources remain available at the listed locations — URLs for government and research organisation reports can change.
+
+## Local Document Library
+
+See [[Local Document Library]] for the full list of primary source documents with slots to attach locally-saved PDFs using the Better File Link plugin.
 
 ---
 

@@ -22,12 +22,18 @@ tags:
 - **JP 3-85** (Joint EMSO)
 - **JEMSOC** (Joint EMS Operations Cell): coordinates EW/spectrum/SIGINT/cyber/space EW
 
+> [!file] JP 3-85 Local Copy
+> Attach a locally-saved copy of JP 3-85 in the [[Local Document Library]] using `Ctrl+P` → **Add file link**.
+
 ## ADF Framework
 
 - **DEMSS** (Defence Electromagnetic Spectrum Strategy)
 - Joint EMSO Cell at HQJOC
 - Defence Spectrum Office (Russell ACT)
 - **7th Signal Regiment EW** (Cabarlah QLD)
+
+> [!file] DEMSS Local Copy
+> Attach a locally-saved copy of the DEMSS in the [[Local Document Library]] using `Ctrl+P` → **Add file link**.
 
 ## Key ADF Programmes
 

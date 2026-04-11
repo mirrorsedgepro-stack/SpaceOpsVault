@@ -18,27 +18,19 @@ tags:
 > [!abstract] Quick Summary
 > Describes the narrowband, wideband, and protected SATCOM architecture — WGS, AEHF, and MUOS — that the joint force and ADF depend on for command, control, and ISR relay. Knowing which system serves which user tier is critical for understanding SATCOM resilience and vulnerability.
 
-```mermaid
-graph LR
-    subgraph Protected["🔒 Protected — EHF · Anti-jam · Nuclear survivable"]
-        AEHF["AEHF<br/>6 × GEO<br/>NCA + select allies"]
-    end
-    subgraph Wideband["📡 Wideband — X/Ka band · High throughput"]
-        WGS["WGS<br/>10 × GEO<br/>⚠️ No anti-jam"]
-    end
-    subgraph Narrowband["📻 Narrowband — UHF · Man-portable"]
-        MUOS["MUOS<br/>5 × GEO<br/>3G-like · AUS hosts ground station"]
-    end
-    subgraph LEO["🛰️ Proliferated LEO — emerging"]
-        PWSA["SDA Transport Layer<br/>BLOS Link 16 relay"]
-        MILNET["MILNET (2027+)<br/>480 × LEO · SpaceX"]
-    end
-```
-    style Protected fill:#5c1a1a,color:#fff
-    style Wideband fill:#1a3a5c,color:#fff
-    style Narrowband fill:#1a5c1a,color:#fff
-    style LEO fill:#3a3a00,color:#fff
-```
+> [!info] SATCOM Tier Architecture
+> **🔒 Protected** · EHF · Anti-jam · Nuclear survivable
+> ↳ AEHF — 6 × GEO · NCA + select allies only
+>
+> **📡 Wideband** · X/Ka-band · High throughput
+> ↳ WGS — 10 × GEO · ⚠️ No anti-jam capability
+>
+> **📻 Narrowband** · UHF · Man-portable
+> ↳ MUOS — 5 × GEO · 3G-like · AUS hosts one of four ground stations
+>
+> **🛰️ Proliferated LEO** · Emerging resilient architecture
+> ↳ SDA Transport Layer (PWSA) — BLOS Link 16 relay from space
+> ↳ MILNET (2027+) — 480 × LEO · SpaceX
 
 ## Narrowband (NB)
 

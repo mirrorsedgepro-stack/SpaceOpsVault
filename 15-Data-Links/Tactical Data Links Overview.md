@@ -18,26 +18,19 @@ tags:
 > [!abstract] Quick Summary
 > Introduces the tactical data link family — Link 16, Link 22, MADL, CEC — and the interoperability architecture that allows different platforms to share a common recognised air/surface picture. Understanding which links your platforms support, and where gaps exist, is foundational to coalition operations.
 
-```mermaid
-graph TD
-    subgraph LOS["Line of Sight"]
-        L16["Link 16<br/>L-band · TDMA · ~300nm<br/>All ADF combat platforms"]
-        MADL["MADL<br/>F-35 only · LPI/LPD<br/>Directional beam"]
-        CEC["CEC<br/>Fire-control quality<br/>Naval only"]
-    end
-    subgraph BLOS["Beyond Line of Sight"]
-        L22["Link 22<br/>HF/UHF · SATCOM-independent<br/>Maritime focus"]
-        JREAP["JREAP<br/>Link 16 over SATCOM<br/>Adds latency"]
-        PWSA["SDA Transport Layer<br/>Link 16 from LEO space<br/>No new terminals needed"]
-    end
-```
-    L16 -->|"BLOS extension"| JREAP
-    L16 -->|"Space relay"| PWSA
-    MADL -->|"Gateway F-35<br/>translates to"| L16
-
-    style LOS fill:#1a3a5c,color:#fff
-    style BLOS fill:#3a1a5c,color:#fff
-```
+> [!info] Data Link Architecture — LOS vs BLOS
+> **Line of Sight**
+> ↳ [[Link 16]] · L-band · TDMA · ~300 nm · all ADF combat platforms
+> ↳ [[MADL]] · F-35 only · LPI/LPD · directional beam
+> ↳ [[CEC and NIFC-CA\|CEC]] · fire-control quality track data · naval only
+>
+> **Beyond Line of Sight**
+> ↳ [[Link 22]] · HF/UHF · SATCOM-independent · maritime focus · 1,000+ nm
+> ↳ [[JREAP]] · Link 16 over SATCOM/IP · extends reach globally · adds latency
+> ↳ [[SDA Transport Layer (PWSA)]] · Link 16 from LEO space · no new terminals needed
+>
+> *Link 16 → JREAP (BLOS extension) · Link 16 → PWSA (space relay)*
+> *MADL → gateway F-35 translates to Link 16*
 
 ## F2T2EA — The Kill Chain
 

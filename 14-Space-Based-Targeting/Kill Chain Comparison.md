@@ -19,31 +19,15 @@ tags:
 
 > [!abstract] Quick Summary
 > Compares the kill chain architectures of Western forces, China, and Iran — highlighting how each relies on space differently and where vulnerabilities and asymmetries exist. Understanding adversary kill chains is the starting point for identifying where to apply counterspace and EW effects defensively.
-```mermaid
-flowchart TD
-    subgraph West["🇺🇸 Western Kill Chain"]
-        W1["FIND<br/>SIGINT sats · ISR · GMTI"] --> W2["FIX<br/>NGA imagery · GPS geoloc"]
-        W2 --> W3["TRACK<br/>SATCOM relay · Link 16"]
-        W3 --> W4["TARGET → ENGAGE<br/>GPS-guided munitions"]
-        W4 --> W5["ASSESS<br/>Satellite BDA"]
-    end
-    subgraph China["🇨🇳 Chinese Kill Chain (ASBM)"]
-        C1["FIND<br/>Yaogan SIGINT/EO<br/>OTH radar"] --> C2["FIX<br/>Electronic geolocation<br/>SAR imagery"]
-        C2 --> C3["TRACK<br/>BeiDou datalink<br/>Tianlian relay"]
-        C3 --> C4["TARGET → ENGAGE<br/>DF-21D/DF-26<br/>Manoeuvring RV"]
-        C4 --> C5["ASSESS<br/>Satellite imagery"]
-    end
-    subgraph Iran["🇮🇷 Iranian Kill Chain"]
-        I1["FIND<br/>Drone ISR · SIGINT<br/>Proxy reporting"] --> I2["FIX<br/>Approx coordinates"]
-        I2 --> I3["TRACK<br/>Limited — static targets preferred"]
-        I3 --> I4["ENGAGE<br/>Shahed · ballistic missiles<br/>GLONASS guidance"]
-        I4 --> I5["ASSESS<br/>Limited BDA"]
-    end
+> [!info] 🇺🇸 Western Kill Chain
+> **FIND** (SIGINT sats · ISR · GMTI) → **FIX** (NGA imagery · GPS geoloc) → **TRACK** (SATCOM relay · Link 16) → **TARGET/ENGAGE** (GPS-guided munitions) → **ASSESS** (satellite BDA)
 
-    style West fill:#1a3a5c,color:#fff
-    style China fill:#5c1a1a,color:#fff
-    style Iran fill:#3a3a00,color:#fff
-```
+> [!warning] 🇨🇳 Chinese Kill Chain — ASBM vs Carrier Strike Group
+> **FIND** (Yaogan SIGINT/EO · OTH radar) → **FIX** (electronic geoloc · SAR imagery) → **TRACK** (BeiDou datalink · Tianlian relay) → **TARGET/ENGAGE** (DF-21D/DF-26 · manoeuvring RV) → **ASSESS** (satellite imagery)
+> *Potentially closes in under 30 min · uses entirely non-Western PNT and ISR infrastructure*
+
+> [!note] 🇮🇷 Iranian Kill Chain
+> **FIND** (drone ISR · SIGINT · proxy reporting) → **FIX** (approx coordinates) → **TRACK** (limited — static targets preferred) → **ENGAGE** (Shahed · ballistic missiles · GLONASS guidance) → **ASSESS** (limited BDA)
 
 ## Western (Tomahawk vs Land Target)
 

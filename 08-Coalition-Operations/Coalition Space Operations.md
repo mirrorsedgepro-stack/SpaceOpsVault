@@ -15,27 +15,17 @@ tags:
 
 > [!abstract] Quick Summary
 > Describes the multinational framework for coalition space operations — centred on Operation Olympic Defender, CSpOC, and Combined Space Operations (CSpO) — and Australia's embedded role. Understanding this framework is essential for any ADF personnel deploying to or coordinating with US space organisations.
-```mermaid
-graph TD
-    OOD["🌐 Operation Olympic Defender<br/>Multinational framework"]
-
-    OOD --> US["🇺🇸 United States<br/>Lead nation · CSpOC host"]
-```
-    OOD --> UK["🇬🇧 United Kingdom"]
-    OOD --> AUS["🇦🇺 Australia<br/>SST · MUOS · Pine Gap · WGS-6"]
-    OOD --> CAN["🇨🇦 Canada"]
-    OOD --> NZ["🇳🇿 New Zealand"]
-    OOD --> GER["🇩🇪 Germany"]
-    OOD --> FRA["🇫🇷 France"]
-
-    US --> CSpOC["CSpOC<br/>Combined Space Ops Centre<br/>Vandenberg SFB"]
-    CSpOC --> AUSSpOC["AUSSpOC<br/>ADF embed at CSpOC"]
-
-    style OOD fill:#1a3a5c,color:#fff
-    style CSpOC fill:#5c1a1a,color:#fff
-    style AUS fill:#1a5c1a,color:#fff
-    style AUSSpOC fill:#1a5c1a,color:#fff
-```
+> [!info] Operation Olympic Defender — Partner Network
+> **🌐 Operation Olympic Defender** · US-led multinational warfighting framework
+> ├── 🇺🇸 **United States** — Lead nation · CSpOC host
+> │   └── CSpOC · Combined Space Ops Centre · Vandenberg SFB
+> │       └── 🇦🇺 AUSSpOC (ADF embed)
+> ├── 🇬🇧 United Kingdom
+> ├── 🇦🇺 **Australia** — SST · MUOS · Pine Gap · WGS-6
+> ├── 🇨🇦 Canada
+> ├── 🇳🇿 New Zealand *(joined 2024–2025)*
+> ├── 🇩🇪 Germany *(joined 2024–2025)*
+> └── 🇫🇷 France *(joined 2024–2025)*
 
 ## Operation Olympic Defender (OOD)
 

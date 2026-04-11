@@ -28,23 +28,15 @@ tags:
 | **Cyber** | Attacks ground stations, data links, satellite software | All state actors |
 | **Co-orbital / RPO** | Manoeuvre satellite near target for intelligence, positioning, or attack | China, Russia |
 
-> [!info] Adversary Capability Comparison *(requires Obsidian Charts plugin)*
-
-```chart
-type: radar
-labels: [Kinetic DA-ASAT, Directed Energy, EW / Jamming, Cyber, Co-orbital RPO]
-series:
-  - title: China
-    data: [5, 4, 4, 5, 5]
-  - title: Russia
-    data: [5, 3, 5, 4, 4]
-  - title: Iran
-    data: [2, 1, 4, 3, 1]
-  - title: North Korea
-    data: [2, 1, 3, 3, 1]
-beginAtZero: true
-width: 70%
-```
+> [!info] Adversary Capability Comparison *(open-source assessment · 1–5 scale)*
+>
+> | Threat Domain | 🇨🇳 China | 🇷🇺 Russia | 🇮🇷 Iran | 🇰🇵 N. Korea |
+> |---|:---:|:---:|:---:|:---:|
+> | Kinetic DA-ASAT | ●●●●● | ●●●●● | ●● | ●● |
+> | Directed Energy | ●●●● | ●●● | ● | ● |
+> | EW / Jamming | ●●●● | ●●●●● | ●●●● | ●●● |
+> | Cyber | ●●●●● | ●●●● | ●●● | ●●● |
+> | Co-orbital RPO | ●●●●● | ●●●● | ● | ● |
 
 > [!tip] Hot Tip
 > Electronic warfare (jamming/spoofing) is the most frequently employed counterspace capability — it's cheap, deniable, and reversible. When assessing threat activity, EW effects are far more likely day-to-day than kinetic events. Don't fixate on DA-ASAT; the daily threat is in the electromagnetic spectrum.
