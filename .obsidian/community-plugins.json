@@ -13,5 +13,6 @@
   "typography",
   "folder-note-plugin",
   "tag-wrangler",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-file-link"
 ]

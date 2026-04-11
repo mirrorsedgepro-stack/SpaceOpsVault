@@ -104,4 +104,7 @@ Transition from **reactive** to **predictive** using AI/ML to parse sensor data,
 > 4. **ATLAS** (Advanced Tracking and Launch Analysis System), declared operationally accepted **September 2025**
 > 5. Using AI/ML to parse sensor data, identify patterns, and **predict future manoeuvres** before they happen — shifting from reactive (responding to events) to anticipatory (warning of events in advance). Key S4S priority because the adversary threat is increasingly dynamic
 
+> [!file] SDP 3-100 SDA Doctrine — Local Copy
+> Attach a locally-saved copy of SDP 3-100 (Space Domain Awareness doctrine) in the [[Local Document Library]] using `Ctrl+P` → **Add file link**.
+
 **Related:** [[ATLAS]] · [[Space Fence]] · [[GSSAP]] · [[Silent Barker]] · [[Counterspace Threats Overview]]

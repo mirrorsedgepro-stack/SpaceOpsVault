@@ -32,6 +32,9 @@ tags:
 > [!tip] Hot Tip
 > JP 3-14 is limited distribution (DoD only) — ADF personnel cannot simply download it. Request access through your chain of command before deploying with USSF, and allow lead time for releasability approval. Arriving without having read JP 3-14 limits your effectiveness in joint planning immediately.
 
+> [!file] Local Copies of Doctrine Documents
+> Attach locally-saved PDFs for any of the publications above using `Ctrl+P` → **Add file link** (Better File Link plugin). The [[Local Document Library]] holds all document slots in one place — open it to attach Spacepower 2020, Space Warfighting: A Framework for Planners, and any SDP volumes you have access to.
+
 ## 13 USSF Mission Areas
 
 1. [[Space Domain Awareness|SDA]]

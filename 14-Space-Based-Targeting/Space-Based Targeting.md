@@ -65,4 +65,7 @@ flowchart LR
 - [[Tomahawk Guidance]]
 - [[Kill Chain Comparison]]
 
+> [!file] SDP 3-101 Targeting — Local Copy
+> Attach a locally-saved copy of SDP 3-101 (Space-Based Targeting doctrine) in the [[Local Document Library]] using `Ctrl+P` → **Add file link**.
+
 **Related:** [[Tactical Data Links Overview]] · [[GPS]] · [[SATCOM Architecture]]

@@ -46,13 +46,13 @@ graph TD
 
 ## Orbital Regimes
 
-| Regime | Altitude | Period | Key Occupants |
-| --- | --- | --- | --- |
-| **LEO** | 160–2,000 km | ~90 min | ISR, Starlink, ISS, debris |
-| **MEO** | 2,000–35,786 km | 2–24 hrs | [[GPS]], Galileo, GLONASS, [[BeiDou B3A and SMC\|BeiDou]] |
-| **GEO** | ~35,786 km | 24 hrs (stationary) | [[SATCOM Architecture\|SATCOM]], [[Missile Warning and Tracking\|missile warning]], weather |
-| **HEO** (Molniya) | Perigee ~500 km / Apogee ~40,000 km | ~12 hrs | Russian comms, some missile warning |
-| **Cislunar** | >36,000 km to ~384,000 km | Varies | Emerging; Lagrange points of strategic interest |
+| Regime            | Altitude                            | Period              | Key Occupants                                                                               |
+| ----------------- | ----------------------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
+| **LEO**           | 160–2,000 km                        | ~90 min             | ISR, Starlink, ISS, debris                                                                  |
+| **MEO**           | 2,000–35,786 km                     | 2–24 hrs            | [[GPS]], Galileo, GLONASS, [[BeiDou B3A and SMC\|BeiDou]]                                   |
+| **GEO**           | ~35,786 km                          | 24 hrs (stationary) | [[SATCOM Architecture\|SATCOM]], [[Missile Warning and Tracking\|missile warning]], weather |
+| **HEO** (Molniya) | Perigee ~500 km / Apogee ~40,000 km | ~12 hrs             | Russian comms, some missile warning                                                         |
+| **Cislunar**      | >36,000 km to ~384,000 km           | Varies              | Emerging; Lagrange points of strategic interest                                             |
 
 ## Key Concepts
 
